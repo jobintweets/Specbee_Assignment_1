@@ -1,0 +1,259 @@
+
+body {
+  /* margin: 0; */
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  margin-bottom:3%;
+
+  
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+   
+  }
+ li {
+   display: inline-block;
+ }
+ 
+ .navigation-links{
+    float: right;
+    margin-right:5%;
+ }
+ 
+ li a {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover{
+    color: red;
+  }
+  .logo {
+    padding: 14px ;
+    margin-left:10%;
+  }
+  input#phone {
+      background-color:#EDAB5E;
+     color:white;
+     padding: 20px 40px;
+     cursor: pointer;
+  }
+  input#phone:hover {
+    color:white;
+    background-color:#C8122E;
+
+  }
+  .flex_contianer{
+    display: flex;
+    position: relative;
+    color:#0A1118;
+    height: 500px;
+  }
+  .banner_image
+  {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .arrow_svg_image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+}
+.banner-svg-container
+{
+   position: absolute;
+   top:0px;
+   left: 0px;
+   width: 50%;
+   height: 500px;
+}
+.banner_text {
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  font-size: 200%;
+}
+.banner_text .banner_subtext{
+  font-size:50%;
+  color: rgb(151, 150, 150);
+}
+.section2{
+  margin-top:8%;
+}
+.section2_col1{
+  float:left;
+  margin-left:5%;
+}
+.section2_col2{
+
+text-align: left;
+margin-left:50%;
+
+}
+.know_more{
+  margin-top:36px;
+  background-color:#0A1118;
+      outline: none;
+      color:white;
+      padding: 16px;
+
+}
+.know_more:hover{
+  background-color:#EDAB5E;
+  color: #0A1118;
+}
+#testimony{
+  color:gray;
+ font-size: 25px;
+ 
+}
+#row3{
+  margin-top:8%;
+  background-color: #F4F4F4;
+  overflow: hidden;
+}
+.row3_col1{
+  float: left;
+  margin-left:5%;
+}
+.row3_col2{
+  /* font-family: 'Poppins', sans-serif; */
+text-align: left;
+margin-left:50%;
+}
+.SouthCarolina{
+  margin-top:25%;
+}
+ .rectangle1{
+  width: 500px;
+  height:120px;
+   background-color:white;
+  color:black;
+  margin-top:25%;
+  text-align: left;
+  padding:15px 15px 15px 15px;
+}
+.rectangle2{
+  width: 500px;
+  height:120px;
+   background-color:#EDAB5E;
+  color:white;
+  margin-top:5%;
+  padding:15px 15px 15px 15px;
+}
+.rectangle3{
+   width: 500px;
+  height:120px;
+   background-color:white;
+  color:black;
+  margin-top:5%;
+  padding:15px 15px 15px 15px;
+  margin-bottom:20%;
+}
+
+.img-tick {
+  vertical-align: middle;
+ 
+}
+
+
+
+.copy_rights{
+  display: inline-block;
+  
+  padding: 14px ;
+  margin-left:10%;
+  color:grey;
+}
+.footer_links {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  color:grey;
+}
+.footer_links a:hover {
+  color:#EDAB5E;
+}
+.social_icons{
+  /* float: right; */
+  display: inline-block;
+margin-left:36px;
+color:grey;
+}
+
+
+.image1 {
+  width: 100%;
+  height:100%;
+  margin-left:45px;
+}
+.section2_heading{
+  font-size: 200%;
+}
+
+
+.section4 {
+  width: 100%;
+}
+.section4_colLeft {
+  float: left;
+  width: 50%;
+  height: 634px;
+  background-color: #0a1118;
+}
+.section4_colRight {
+  width: 50%;
+  float: right;
+}
+.section4_colLeft_title {
+  color: white;
+  margin-left: 100px;
+  margin-top: 150px;
+  font-size: 200%;
+
+}
+.section4_colLeft_content {
+  color: white;
+  margin-left: 115px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.tick  {
+  position: absolute;
+  margin-top: 35px;
+  margin-left:  60px;
+}
+.section4_colRight_image{
+  width: 100%;
+  height: 100%;
+}
+
+.section4:after{
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+
+.divContent2 h3{
+  font-weight: bolder;
+  color: #f4f4f4;
+  
+  font-size: 18px;
+}
+
+path:hover{
+  
+ fill: #EDAB5E;
+}
