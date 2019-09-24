@@ -9,6 +9,9 @@
     <title>Document</title>
 </head>
 <body>
+    <header class="main_header">
+
+  
         <nav>
          <ul>
          <li class="logo"><img src="images/logo.svg"></li>
@@ -36,7 +39,7 @@
                         </div>
                     </div>
         </section>
-    
+    </header>
 <section class="section2">
     
                 <div class="section2_col1">
@@ -56,28 +59,38 @@
 <section>
         <div id="row3">
                 <div class="row3_col1" >
-                      <div class="rectangle1" id="rectangle1" onclick="display_Content(this.id)">
+                      <div class="rectangle1 tablinks" id="rectangle1" tabindex="1"  onfocus="display_Content(event,'tab_content1')" onclick="display_Content(event,'tab_content1')">
                           <h4>2018</h4>
                           <p> we know he landscape and the climate of the <br>
                             Southeast</p>
                         </div>
-                      <div  class="rectangle2" id="rectangle2"  onclick="display_Content(this.id)">
+                      <div  class="rectangle2 tablinks" id="rectangle2"  tabindex="2"    onfocus="display_Content(event,'tab_content2')" onclick="display_Content(event,'tab_content2')">
                             <h4>WINNER</h4>
-                            <p> we know he landscape and the climate of the <br>
+                            <p> we know the  <br>
                               Southeast</p> 
                       </div>
-                      <div  class="rectangle3" id="rectangle3"  onclick="display_Content(this.id)">
+                      <div  class="rectangle3 tablinks" id="rectangle3" tabindex="3"     onfocus="display_Content(event,'tab_content3')" onclick="display_Content(event,'tab_content3')">
                             <h4>GREEN TAG SALE</h4>
-                            <p> we know he landscape and the climate of the <br>
+                            <p> we know the landscape and the climate of the <br>
                               Southeast</p>
                       </div>
                 </div>
-              <div class="row3_col2" id="row3_col2">
+              <div class="row3_col2 tab-content initial-display" id="tab_content1">
                   <h1 class="SouthCarolina">South Carolina's 2018 Best <br>Home Builder!</h1>
                   <p id="testimony">As a regional builder, we know he landscape and the climate of the <br>
                 Southeast better than anyone. With lush, green mountains and <br>
             sprawling sandy beaches ashort drive away, there is no better <br>place to settle down in your new home. </p>
-          
+            </div>
+            <div class="row3_col2 tab-content" id="tab_content2">
+                    <h1 class="SouthCarolina">North Carolina's 2019 Best <br> Business !</h1>
+                    <p id="testimony">As a regional builder, we know he landscape and the climate of the <br>
+                  Southeast better than anyone. With lush, green mountains and <br>
+               </p>
+              </div>
+              <div class="row3_col2 tab-content" id="tab_content3">
+                    <h1 class="SouthCarolina">East Carolina's 2020  <br>Home Builder!</h1>
+                    <p id="testimony">
+              sprawling sandy beaches ashort drive away, there is no better <br>place to settle down in your new home. </p>
               </div>
             </div>
 </section>

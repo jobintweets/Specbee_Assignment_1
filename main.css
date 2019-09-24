@@ -3,7 +3,10 @@ body {
   /* margin: 0; */
   font-family: 'Poppins', sans-serif;
 }
-
+*:focus{
+  outline: none;
+  border-bottom: 3px solid red;
+}
 nav{
   margin-bottom:3%;
 
@@ -144,11 +147,14 @@ margin-left:50%;
   text-align: left;
   padding:15px 15px 15px 15px;
 }
+.rectangle1:focus {
+  outline:1px solid red;
+}
 .rectangle2{
   width: 500px;
   height:120px;
-   background-color:#EDAB5E;
-  color:white;
+   background-color:white;
+  color:black;
   margin-top:5%;
   padding:15px 15px 15px 15px;
 }
@@ -256,4 +262,17 @@ color:grey;
 path:hover{
   
  fill: #EDAB5E;
+}
+
+.tab-content{
+  display: none;
+}
+.initial-display {
+  display: block;
+}
+
+.tablinks:focus {
+  background-color: #EDAB5E;
+  color:white;
+
 }
