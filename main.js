@@ -26,7 +26,9 @@ function test(event,idName){
 function test1(idName) {
  
   var content=document.getElementById(idName);
- 
+ if(content.value){
+  document.getElementById(idName).style.border="none";
+ }
  if(!content.value){
   document.getElementById(idName).style.border=" 2px solid #C8122E";
  }
