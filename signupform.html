@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
     <title>SignUp Form</title>
 </head>
+
 <body>
-   <h1>Welcome</h1> 
+    <center>
+        <h1>Welcome</h1>
+        <div class="card">
+            <form action="result.html">
+             <input type="text" class="first_name " placeholder="First Name" id="first_name" required  onblur="test1(this.id)">
+                <input type="text" class="last_name " placeholder="Last Name" id="last_name" required  onblur="test1(this.id)"><br>
+                <input type="email" class="work_email "   id="work_email" placeholder="Work Email" required  onblur="test1(this.id)">
+                <input type="text" class="company" id="company" placeholder="Company" required  onblur="test1(this.id)"><br>
+                <select name="industry" id="industry" class="" placeholder="Industry:"  onblur="test1(this.id)" required>
+                    <option value="" disabled selected hidden>Industry</option>
+                    <option value="it">IT</option>
+                    <option value="film">Film Making</option>
+                    <option value="video">Video Production</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="free">Freelancing</option>
+
+                </select>
+                <select name="job_function" id="job_function" class="" placeholder="Job Function"  onblur="test1(this.id)"required>
+                    <option value=""disabled selected hidden>Job</option>
+                    <option value="">Marketing Executive</option>
+                    <option value="">IT Executive</option>
+                    <option value="">Product or Digital Marketing</option>
+                    <option value="">Web Design or Development</option>
+                </select> <br>
+                <input type="text" class="phone" placeholder="Phone Number"  onblur="test1(this.id)">
+                <select name="country" id="country" class=""  onblur="test1(this.id)" required>
+                    <option value=""disabled selected hidden>Country</option>
+                    <option value="">USA</option>
+                    <option value="">India</option>
+                    <option value="">Japan</option>
+                    <option value="">Spain</option>
+                    <option value="">Russia</option>
+                </select><br>
+                <label><input type="checkbox" name="checkbox" value="value" required> &nbsp; &nbsp;I accept terms and
+                    conditions</label> <br>
+                <button class="signup-button" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </center>
+   <script  src="main.js"></script> 
 </body>
+
 </html>

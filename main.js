@@ -20,5 +20,14 @@ function display_dropdown(event,idName){
   event.currentTarget.className += " active";
 }
 function test(event,idName){
+
   document.getElementById(idName).style.display = "none";
+}
+function test1(idName) {
+ 
+  var content=document.getElementById(idName);
+ 
+ if(!content.value){
+  document.getElementById(idName).style.border=" 2px solid #C8122E";
+ }
 }
