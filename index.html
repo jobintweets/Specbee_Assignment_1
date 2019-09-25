@@ -10,24 +10,27 @@
 </head>
 <body>
     <header class="main_header">
-
-  
-        <nav>
+         <nav>
          <ul>
          <li class="logo"><img src="images/logo.svg"></li>
-         <div class="navigation-links">
-                                <li><a href="#">FIND YOUR HOME</a></li>
-                                <li><a href="#">FLOOR PLANS</a></li>
-                                <li><a href="#">NEWS</a></li>
-                                <li><a href="#">RESOURCES</a></li>
-                                <li><a href="#">ABOUT US</a></li>
-                     <li><a href="#">CONTACT US</a></li>
-                  <li></li><input type="button" id="phone"  value="844-766-HOME(4663)"></li>
+         <div  tabindex="1" class="navigation-links dropdown" onkeydown="display_dropdown()">
+                <button class="drop_button">Dropdown</button>
+                <div class="dropdown_content" id="dropdown_content">
+
+               
+                                <li class="a" tabindex="2"><a href="#">FIND YOUR HOME</a></li>
+                                <li  class="a" tabindex="3"><a href="#">FLOOR PLANS</a></li>
+                                <li  class="a" tabindex="4"><a href="#">NEWS</a></li>
+                                <li  class="a" tabindex="5"><a href="#">RESOURCES</a></li>
+                                <li  class="a" tabindex="6"><a href="#">ABOUT US</a></li>
+                     <li  tabindex="7"><a href="#">CONTACT US</a></li>
+                  <li  tabindex="8"></li><input type="button" id="phone"  value="844-766-HOME(4663)"></li>
+                </div>
                  </div>
                 </ul>
                 </nav>
-    <main>
-      <section>
+   
+      <section class="web-banner">
                 <div class="flex_contianer">
                 <img src="./images/mail-banner.jpg" class="banner_image" >
                 <div class="banner-svg-container">
@@ -40,6 +43,7 @@
                     </div>
         </section>
     </header>
+    <main>
 <section class="section2">
     
                 <div class="section2_col1">
@@ -59,17 +63,17 @@
 <section>
         <div id="row3">
                 <div class="row3_col1" >
-                      <div class="rectangle1 tablinks" id="rectangle1" tabindex="1"  onfocus="display_Content(event,'tab_content1')" onclick="display_Content(event,'tab_content1')">
+                      <div class="rectangle1 tablinks" id="rectangle1" tabindex="9"  onkeypress="display_Content(event,'tab_content1')" onclick="display_Content(event,'tab_content1')">
                           <h4>2018</h4>
                           <p> we know he landscape and the climate of the <br>
                             Southeast</p>
                         </div>
-                      <div  class="rectangle2 tablinks" id="rectangle2"  tabindex="2"    onfocus="display_Content(event,'tab_content2')" onclick="display_Content(event,'tab_content2')">
+                      <div  class="rectangle2 tablinks" id="rectangle2"  tabindex="10"   onkeypress="display_Content(event,'tab_content2')" onclick="display_Content(event,'tab_content2')">
                             <h4>WINNER</h4>
                             <p> we know the  <br>
                               Southeast</p> 
                       </div>
-                      <div  class="rectangle3 tablinks" id="rectangle3" tabindex="3"     onfocus="display_Content(event,'tab_content3')" onclick="display_Content(event,'tab_content3')">
+                      <div  class="rectangle3 tablinks" id="rectangle3" tabindex="11"    onkeypress="display_Content(event,'tab_content3')" onclick="display_Content(event,'tab_content3')">
                             <h4>GREEN TAG SALE</h4>
                             <p> we know the landscape and the climate of the <br>
                               Southeast</p>

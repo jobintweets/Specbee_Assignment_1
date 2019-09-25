@@ -13,3 +13,7 @@ function display_Content(event,idName) {
     event.currentTarget.className += " active";
 
 }
+function display_dropdown(){
+  
+  document.getElementById("dropdown_content").style.display = "block";
+}
