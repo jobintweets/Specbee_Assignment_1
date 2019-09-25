@@ -13,7 +13,7 @@ function display_Content(event,idName) {
     event.currentTarget.className += " active";
 
 }
-function display_dropdown(){
+function display_dropdown(event,idName){
   
-  document.getElementById("dropdown_content").style.display = "block";
+  document.getElementById(idName).style.display = "block";
 }
