@@ -16,4 +16,9 @@ function display_Content(event,idName) {
 function display_dropdown(event,idName){
   
   document.getElementById(idName).style.display = "block";
+ 
+  event.currentTarget.className += " active";
+}
+function test(event,idName){
+  document.getElementById(idName).style.display = "none";
 }
