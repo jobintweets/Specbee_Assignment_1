@@ -33,3 +33,7 @@ function test1(idName) {
   document.getElementById(idName).style.border=" 2px solid #C8122E";
  }
 }
+function some(ide) {
+
+  document.getElementById(ide).style.display="block";
+}

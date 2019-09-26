@@ -15,22 +15,23 @@
         <h1>Welcome</h1>
         <div class="card">
             <form action="result.html">
-             <input type="text" class="first_name " placeholder="First Name" id="first_name" required  onblur="test1(this.id)">
-                <input type="text" class="last_name " placeholder="Last Name" id="last_name" required  onblur="test1(this.id)"><br>
-                <input type="email" class="work_email "   id="work_email" placeholder="Work Email" required  onblur="test1(this.id)">
-                <input type="text" class="company" id="company" placeholder="Company" required  onblur="test1(this.id)"><br>
-                <select name="industry" id="industry" class="" placeholder="Industry:"  onblur="test1(this.id)" required>
-                    <option value="" disabled selected hidden>Industry</option>
+             <input type="text" class="first_name " placeholder="First Name *" id="first_name" required  onblur="test1(this.id)">
+                <input type="text" class="last_name " placeholder="Last Name *" id="last_name" required  onblur="test1(this.id)"><br>
+                <input type="email" class="work_email "   id="work_email" placeholder="Work Email *" required  onblur="test1(this.id)">
+                <input type="text" class="company" id="company" placeholder="Company *" required  onblur="test1(this.id)"><br>
+                <select name="industry" id="industry" class="" placeholder="Industry:"  onblur="test1(this.id)" onfocus="some('testing')" required>
+                    <div>
+                    <option    id="testing" value="" disabled selected hidden>Industry *</option>
                     <option value="it">IT</option>
                     <option value="film">Film Making</option>
                     <option value="video">Video Production</option>
                     <option value="marketing">Marketing</option>
                     <option value="free">Freelancing</option>
-
+                </div>
                 </select>
                 <select name="job_function" id="job_function" class="" placeholder="Job Function"  onblur="test1(this.id)"required>
                     <!-- <div class="mine"></div> -->
-                    <option value=""disabled selected hidden>Job</option>
+                    <option value=""disabled selected hidden>Job *</option>
                     <option value="">Marketing Executive</option>
                     <option value="">IT Executive</option>
                     <option value="">Product or Digital Marketing</option>
@@ -38,7 +39,7 @@
                 </select> <br>
                 <input type="text" class="phone" placeholder="Phone Number"  onblur="test1(this.id)">
                 <select name="country" id="country" class=""  onblur="test1(this.id)" required>
-                    <option value="" disabled selected hidden>Country</option>
+                    <option value="" disabled selected hidden>Country *</option>
                     <option value="">USA</option>
                     <option value="">India</option>
                     <option value="">Japan</option>
