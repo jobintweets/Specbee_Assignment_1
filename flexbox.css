@@ -9,7 +9,7 @@ body {
   background-color: DodgerBlue;
 }
 
-.flex-container1>div {
+.flex-container1 > div {
   background-color: #f1f1f1;
   width: 100%;
   margin: 10px;
@@ -24,31 +24,7 @@ body {
   background-color: DodgerBlue;
 }
 
-.flex-container2>div {
-  /* background-color: #f1f1f1; */
-  margin: 5px;
-  padding: 30px;
-  font-size: 30px;
-  height: 400px;
-}
-
-.flex-container2_div1 {
-  width: 70%;
-  background-color: red;
-}
-
-.flex-container2_div2 {
-  width: 30%;
-  background-color: green;
-}
-
-.flex-container3 {
-  display: flex;
-
-  background-color: DodgerBlue;
-}
-
-.flex-container3>div {
+.flex-container2 > div {
   /* background-color: #f1f1f1; */
   margin: 10px;
   padding: 30px;
@@ -56,19 +32,47 @@ body {
   height: 400px;
 }
 
+.flex-container2_div1 {
+  /* width: 70%; */
+  flex-grow: 2;
+  flex-basis: 14%;
+  background-color: red;
+}
+
+.flex-container2_div2 {
+  /* width: 30%; */
+  flex-grow: 1;
+  background-color: green;
+}
+
+.flex-container3 {
+  display: flex;
+
+  background-color: orange;
+}
+
+.flex-container3 > div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  width: 100%;
+  padding: 30px;
+  font-size: 30px;
+  height: 400px;
+}
+
 .flex-container3_div1 {
-  width: 33.33%;
+  /* width: 33.33%; */
   background-color: red;
 }
 
 .flex-container3_div2 {
-  width: 33.33%;
+  /* width: 33.33%; */
   background-color: green;
 }
 
 .flex-container3_div3 {
-  width: 33.33%;
-  background-color: orange;
+  /* width: 33.33%; */
+  background-color: red;
 }
 
 .flex-container4 {
@@ -76,8 +80,9 @@ body {
   /* background-color: DodgerBlue; */
 }
 
-.flex-container4>div {
+.flex-container4 > div {
   background-color: #f1f1f1;
+  width: 100%;
   margin: 10px;
   padding: 30px;
   font-size: 30px;
@@ -97,7 +102,7 @@ body {
   width: 100%;
 }
 
-.right_up>div {
+.right_up > div {
 
   height: 200px;
 }
@@ -117,7 +122,7 @@ body {
   background-color: mediumvioletred;
 }
 
-.right_down>div {
+.right_down > div {
   background-color: #f1f1f1;
   width: 100%;
   margin: 10px;
@@ -133,7 +138,7 @@ body {
   background-color: DodgerBlue;
 }
 
-.flex-container5>div {
+.flex-container5 > div {
   /* background-color: #f1f1f1; */
   margin: 10px;
   padding: 30px;
